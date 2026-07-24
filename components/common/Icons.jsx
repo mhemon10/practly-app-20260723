@@ -1,0 +1,41 @@
+import {
+  FiCalendar,
+  FiClock,
+  FiCheckCircle,
+  FiUser,
+  FiArrowRight,
+  FiBell,
+  FiCreditCard,
+  FiShield,
+  FiRefreshCw,
+  FiBarChart2,
+  FiMapPin,
+  FiPlus,
+  FiScissors,
+  FiTool,
+  FiCheck,
+  FiGlobe,
+  FiMail,
+} from "react-icons/fi";
+
+export const Icons = {
+  Calendar: FiCalendar,
+  Clock: FiClock,
+  CheckCircle: FiCheckCircle,
+  User: FiUser,
+  ArrowRight: FiArrowRight,
+  Bell: FiBell,
+  CreditCard: FiCreditCard,
+  Shield: FiShield,
+  RefreshCw: FiRefreshCw,
+  BarChart: FiBarChart2,
+  MapPin: FiMapPin,
+  Plus: FiPlus,
+  Scissors: FiScissors,
+  Wrench: FiTool,
+  Check: FiCheck,
+  Globe: FiGlobe,
+  Mail: FiMail,
+};
+
+export default Icons;
