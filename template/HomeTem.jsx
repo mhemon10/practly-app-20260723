@@ -1,3 +1,4 @@
+import DemoSection from '@/components/sections/DemoSection';
 import FeaturesGrid from '@/components/sections/FeaturesGrid';
 import Hero from '@/components/sections/HeroSection';
 import HowItWorks from '@/components/sections/HowItWorks';
@@ -10,7 +11,8 @@ const HomeTem = () => {
             <Hero />
             <FeaturesGrid />
             <HowItWorks />
-            <WhoItsFor/>
+            <WhoItsFor />
+            <DemoSection/>
         </div>
     );
 };

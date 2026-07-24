@@ -28,7 +28,7 @@ export default function FeaturesGrid() {
 
   return (
     <section
-      id="09-20"
+      id="features"
       data-time="09:20"
       data-label="Features"
       className="py-20 md:py-28 bg-slate-bg text-navy overflow-hidden">

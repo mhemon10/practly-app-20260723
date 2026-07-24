@@ -47,7 +47,7 @@ export default function HowItWorks() {
   return (
     <section
       ref={sectionRef}
-      id="09-40"
+      id="how"
       data-time="09:40"
       data-label="How it works"
       className="bg-[var(--navy-deep)] text-[var(--white)] py-20 md:py-28 overflow-hidden relative">
