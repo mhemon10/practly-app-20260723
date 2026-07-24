@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --navy: #1e293b;
+  --navy-deep: #0b1120;
+  --slate-bg: #f8fafc;
+  --slate-text: #64748b;
+  --mint: #10b981;
+  --mint-deep: #059669;
+  --mint-tint: #d1fae5;
+  --white: #ffffff;
+  --rail-w: 64px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-slate-bg: var(--slate-bg);
+  --color-slate-text: var(--slate-text);
+  --color-mint: var(--mint);
+  --color-mint-deep: var(--mint-deep);
+  --color-mint-tint: var(--mint-tint);
+  --color-white: var(--white);
+  --spacing-rail: var(--rail-w);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--slate-bg);
+  color: var(--navy);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom CSS Keyframes for Hero Animations */
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+}
+
+@keyframes toastIn {
+  0%, 15% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  35%, 80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
 }

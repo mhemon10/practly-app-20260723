@@ -2,6 +2,7 @@
 import "./globals.css";
 import PublicLayout from "./(public)/layout";
 
+
 export const metadata = {
   title: "Pure Physio Therapy",
   description: "Physiotherapy & Rehabilitation Website",
@@ -20,6 +21,7 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+       
         <PublicLayout>{children}</PublicLayout>
       </body>
     </html>
