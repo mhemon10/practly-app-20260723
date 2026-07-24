@@ -1,6 +1,7 @@
 import FeaturesGrid from '@/components/sections/FeaturesGrid';
 import Hero from '@/components/sections/HeroSection';
 import HowItWorks from '@/components/sections/HowItWorks';
+import WhoItsFor from '@/components/sections/WhoItsFor';
 import React from 'react';
 
 const HomeTem = () => {
@@ -8,7 +9,8 @@ const HomeTem = () => {
         <div>
             <Hero />
             <FeaturesGrid />
-            <HowItWorks/>
+            <HowItWorks />
+            <WhoItsFor/>
         </div>
     );
 };
