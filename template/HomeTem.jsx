@@ -1,4 +1,5 @@
 import DemoSection from '@/components/sections/DemoSection';
+import FAQ from '@/components/sections/Faq';
 import FeaturesGrid from '@/components/sections/FeaturesGrid';
 import Hero from '@/components/sections/HeroSection';
 import HowItWorks from '@/components/sections/HowItWorks';
@@ -18,7 +19,8 @@ const HomeTem = () => {
             <DemoSection />
             <Integrations />
             <Testimonials />
-            <Pricing/>
+            <Pricing />
+            <FAQ/>
         </div>
     );
 };
