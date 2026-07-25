@@ -2,6 +2,8 @@ import DemoSection from '@/components/sections/DemoSection';
 import FeaturesGrid from '@/components/sections/FeaturesGrid';
 import Hero from '@/components/sections/HeroSection';
 import HowItWorks from '@/components/sections/HowItWorks';
+import Integrations from '@/components/sections/Integrations';
+import Testimonials from '@/components/sections/Testimonials';
 import WhoItsFor from '@/components/sections/WhoItsFor';
 import React from 'react';
 
@@ -12,7 +14,9 @@ const HomeTem = () => {
             <FeaturesGrid />
             <HowItWorks />
             <WhoItsFor />
-            <DemoSection/>
+            <DemoSection />
+            <Integrations />
+            <Testimonials/>
         </div>
     );
 };

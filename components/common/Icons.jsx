@@ -16,6 +16,10 @@ import {
   FiCheck,
   FiGlobe,
   FiMail,
+  FiPlusCircle,
+  FiUsers,
+  FiHome,
+  FiLayout,
 } from "react-icons/fi";
 
 export const Icons = {
@@ -36,6 +40,11 @@ export const Icons = {
   Check: FiCheck,
   Globe: FiGlobe,
   Mail: FiMail,
+
+  PlusCircle: FiPlusCircle,
+  Users: FiUsers,
+  Home: FiHome,
+  Layout: FiLayout,
 };
 
 export default Icons;
